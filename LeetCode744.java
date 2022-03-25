@@ -1,15 +1,6 @@
-public class LeetCode744 {
 
-    public static void main(String[] args) {
 
-        char letters [] ={'c','f','j'};
-        char target = 'c';
-        char ans = nextGreatestLetter(letters, target);
-        System.out.println(ans);
-
-    }
-
-    public static char nextGreatestLetter(char[] letters, char target) {
+    public char nextGreatestLetter(char[] letters, char target) {
 
         int start = 0;
         int end = letters.length-1;
