@@ -3,10 +3,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class lc443 {
-
-    public static void main(String[] args) {
-
-    }
+    
         int minMutation=Integer.MAX_VALUE;
 
         public int minMutation(String start, String end, String[] bank) {
@@ -41,3 +38,5 @@ public class lc443 {
         }
 
 }
+
+//Collected
